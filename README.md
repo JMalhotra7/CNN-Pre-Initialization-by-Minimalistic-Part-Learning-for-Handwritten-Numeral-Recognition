@@ -6,10 +6,10 @@
 Data Preparation.ipynb   
 **Step 2. Preparing 5% samples for top-half view and bottom-half view**   
 Top Half & Bottom Half Preparation.ipynb    
-**Step 3. Pre-Intializing CNN using top-half 5% samples, fine tuning it with 95% training data and getting predicted probabilty scores.**     
-**Step 4. Pre-Intializing CNN using bottom-half 5% samples, fine tuning it with 95% training data and getting predicted probabilty scores.**     
+**Step 3. Pre-Intializing CNN using top-half 5% samples, fine tuning it with 95% training data and getting predicted probabilty scores.**     Fine tuning after pre-initialization (top-half part).ipynb   
+**Step 4. Pre-Intializing CNN using bottom-half 5% samples, fine tuning it with 95% training data and getting predicted probabilty scores.**     Fine tuning after pre-initialization (bottom-half part).ipynb   
 **Step 5. Fusing the scores (average or max function) to predict the output class.**     
-
+Combining Top-half and Bottom-half Predictions.ipynb   
 ### Citation
 
 If using this code, please cite our work using :
