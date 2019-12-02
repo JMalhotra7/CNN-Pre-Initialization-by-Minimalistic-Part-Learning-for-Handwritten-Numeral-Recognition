@@ -1,0 +1,1 @@
+# CNN-Pre-Initialization-by-Minimalistic-Part-Learning-for-Handwritten-Numeral-Recognition
