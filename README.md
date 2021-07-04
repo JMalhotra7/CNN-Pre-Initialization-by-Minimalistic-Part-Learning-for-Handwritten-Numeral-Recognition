@@ -3,6 +3,12 @@
 ### Description
 This paper performs handwritten numeral recognition. In this we pre-initialize the convolutional neural networks(CNN) by part learning. Two CNNs are pre-intialized with just the top-half(with bottom-half masked) and bottom-half(with top-half masked)of the 5% of the training data respectively. The CNNs are fine tuned using the remaining 95% training data. The probabilistcs softmax scores of two CNNS are fused to decide the test label.
 
+### Citation
+
+If using this code, please cite our work using :
+
+	Susan, Seba, and Jatin Malhotra. "CNN Pre-initialization by Minimalistic Part-Learning for Handwritten Numeral Recognition." In International Conference on Mining Intelligence and Knowledge Exploration, pp. 320-329. Springer, Cham, 2019.
+
 ### Usage
 
 **Step 1. Taking 5% samples from training data.**   
@@ -16,8 +22,4 @@ This paper performs handwritten numeral recognition. In this we pre-initialize t
 'Combining Top-half and Bottom-half Predictions.ipynb'     
 
 All pre-trained models and datasets are present in 'Data and Models.zip' file.   
-### Citation
 
-If using this code, please cite our work using :
-
-	Susan, Seba, and Jatin Malhotra. "CNN Pre-initialization by Minimalistic Part-Learning for Handwritten Numeral Recognition." In International Conference on Mining Intelligence and Knowledge Exploration, pp. 320-329. Springer, Cham, 2019.
